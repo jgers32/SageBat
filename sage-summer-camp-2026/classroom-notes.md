@@ -6,6 +6,30 @@
 - camera app [repo](https://github.com/jgers32/julia-hack-app)
 
 
-## Completed
+## List 
 - [x] created, published app, and ran camera app on H034
 - [x] set-up Sage MCP
+- [ ] vs code remote SSH for H034
+
+---
+
+matthew thompson (research SWE @ OSU imageomics)
+
+[https://imageomics.github.io/catalog/#type=models](https://imageomics.github.io/catalog/#type=models)
+
+- domain specialization/adaption:
+    - continued pretraining
+    - fine-tuning: subset of weights (full/param-efficient)
+    - few-shot probing
+
+- deployment optimization:
+    - distillation
+    - quantization
+
+- edge constraints guiding design:
+    - hardware limits
+    - science requirements
+    - pratical limitations
+
+PTQ: post-training quant
+QAT: q-aware training
