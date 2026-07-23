@@ -9,7 +9,6 @@
 ## List 
 - [x] created, published app, and ran camera app on H034
 - [x] set-up Sage MCP
-- [ ] vs code remote SSH for H034
 
 ---
 
