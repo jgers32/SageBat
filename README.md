@@ -10,3 +10,6 @@
 
 `sage-summer-camp-2026/` is subdir with Julia's `classroom-notes.md`.
 
+if trying to push from THOR, run the following first:
+`eval "$(ssh-agent -s)"`
+`ssh-add ~/.ssh/github-key`
