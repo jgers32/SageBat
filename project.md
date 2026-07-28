@@ -3,15 +3,13 @@
 ## Project Overview
 
 This project has three parts:
-- 1. **`ultramic`**: a pip-installable Python package for recording from the 384kHz ultrasound mic, making it simple to add ultrasound sensing to any SAGE (or non-SAGE) edge node
+- **`ultramic`**: a pip-installable Python package for recording from the 384kHz ultrasound mic, making it simple to add ultrasound sensing to any SAGE (or non-SAGE) edge node
 
-![Ultramic](ultramic.jpg)
-
-- 2. **Edge detection + classification pipeline**: band-filtering to isolate bat chirps at the edge, then off-the-shelf ML (NABat ML) for species-level classification
+- **Edge detection + classification pipeline**: band-filtering to isolate bat chirps at the edge, then off-the-shelf ML (NABat ML) for species-level classification
 
 ![Identification](identification.png)
 
-- 3. **Iintrinsic dimensionality**: investigation bat sound spectrograms using a framework called Pairwise Distortion Distribution (PDD). The estimated intrinsic dimension is then used to analyze the latent representation learned by an autoencoder and evaluate reconstruction quality.
+- **Iintrinsic dimensionality**: investigation bat sound spectrograms using a framework called Pairwise Distortion Distribution (PDD). The estimated intrinsic dimension is then used to analyze the latent representation learned by an autoencoder and evaluate reconstruction quality.
 
 ![Pipeline](pipeline.png)
 
@@ -20,9 +18,9 @@ This project has three parts:
 ## 1. `ultramic`: the recording package
 **Motivation**: existing deployments needed a simple, dependency-light add-on USB mic library that would "just work" across edge nodes without platform-specific audio backends.
 
-- Dependency-light continuous recording library for the Dodotronic Ultramic384k_evo USB microphone
-- Built on `sounddevice` (PortAudio) — runs identically on Linux, macOS, and Windows with no platform-specific audio backend
-- Published on PyPI: https://pypi.org/project/ultramic/
+- Dependency-light continuous recording library for the [Dodotronic Ultramic384k_evo](https://www.dodotronic.com/product/ultramic-384k-evo/) USB microphone
+- Built on `sounddevice` (PortAudio), aimed to run identically on Linux, macOS, and Windows with no platform-specific audio backend
+- Published on PyPI: [https://pypi.org/project/ultramic/](https://pypi.org/project/ultramic/)
 - Install: `pip install ultramic`
 
 **Features**:
