@@ -9,7 +9,7 @@ This project has three parts:
 
 ![Identification](identification.png)
 
-- **Iintrinsic dimensionality**: investigation bat sound spectrograms using a framework called Pairwise Distortion Distribution (PDD). The estimated intrinsic dimension is then used to analyze the latent representation learned by an autoencoder and evaluate reconstruction quality.
+- **Intrinsic dimensionality**: investigating bat sound spectrograms using a framework called Pairwise Distortion Distribution (PDD). The estimated intrinsic dimension is then used to analyze the latent representation learned by an autoencoder and evaluate reconstruction quality.
 
 ![Pipeline](pipeline.png)
 
