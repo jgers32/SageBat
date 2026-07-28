@@ -4,3 +4,8 @@
 .claude/
 .ipynb_checkpoints/
 *.wav
+z-delete/
+nabat-ml/
+bouts/
+bouts_ab/
+BattyBirdNET-Analyzer/
